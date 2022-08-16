@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.button {
+  padding: 5px 15px;
+  text-transform: capitalize;
+  font-size: 18px;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  background-color: #fff;
+}
